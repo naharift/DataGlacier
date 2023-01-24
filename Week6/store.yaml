@@ -1,0 +1,15 @@
+file_type: csv
+dataset_name: file
+file_name: Rate
+table_name: cnpj
+inbound_delimiter: ";"
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - CNPJ
+    - NAME 
+    - CODE 
+    - QUALIFICATION
+    - INCOME
+    - CODE_SIZE
+    - STATE
